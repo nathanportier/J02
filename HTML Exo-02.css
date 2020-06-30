@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Accueil ISEG Summer Code Camp</title>
+<link rel="stylesheet" href="ex-02.css">
+</head>
+<body> <!-- ouverture de la balise body -->
+<h1>Programme</h1>
+    <p>La maîtrise des fondamentaux du code et de la programmation dans les domaines dubusiness, du marketing et de la communication est un avantage sérieux et utile.</q></p>
+    <br><b>Elle deviendra de plus en plus incontournable</b></p>
+    <h2>Retour d'expérience</h2>
+    <br><q>Quand le projet nous a été proposé je n’ai pas hésité une seconde ! Le but étaitde nous faire créer un site sur des bases de HTML, CSS et PHP. J’ai énormément appris, le tout dans une ambiance plutôt cool. <i>ALEXIS</i> 2<sup>e</sup> ANNÉE <i>>2018-2019</i></q></br>
+    <br><q>Nous avons travaillé à la méthode Epitech : pas de professeurs, pas de cours ànoter, mais beaucoup de réflexion par soi-même pour avancer. Chacun y allait à sonrythme au sein de l’équipe. C’est une expérience enrichissante, un vrai plus pourmon CV et mes stages futurs ! <i>MAGALIE</i> 2<sup>e</sup> ANNÉE <i>2018-2019</i></q></br>
+    <h2> atouts de la formation</h2>
+    <ul> 
+        <li id="ligne1">-Découverte du code et de la programmation web</li>
+        <li id="ligne2">-Découverte de la culture numérique</li>
+        <li>-Découverte de la méthodologie Epitech</li>
+        <li id="ligne4"> -Construction d’un langage commun avec vos futures équipes de développement</li>
+        </ul>
+    <h3>image, vidéo et sons</h3>
+    <img id="photo" src="logo_epitech.png" alt="explication image">
+    <video id="video" src="pink_fluffy_unicorn.mp4" type="vidéo/mp4"controls></video>
+<audio id="audio" controls><source src="tristram.mp3" type="audio/mpeg"></audio>
+<h2>liens externes</h2>
+<a href="hello-world.html"><h4>Hello World</h4> </a>
+<a href="https://www.google.fr/"><h4>google</h4> </a>
+</body> <!-- fermeture de la balise body -->
+</html>
+body
+{
+    color: darkslategrey;
+}
+ 
+h1
+{
+   color: #8B0000;
+   font-family: "nasa"
+}
+ 
+h2
+ 
+{
+    color:rgb(178, 34, 34);
+    font-family: "nasa";
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+ 
+body
+ 
+{
+    background-color: aliceblue;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ 
+h1 
+{
+    background-color:rgba(0, 0, 0, 0.2);
+    font-size: 45px;
+    text-decoration: underline;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+ 
+}
+ 
+h3
+{
+    font-family: "nasa";
+    font-size: 25px;
+    text-align: center;
+}
+ 
+@font-face 
+{
+    font-family: "nasa";
+    src: url("nasalization-rg.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+q
+ 
+{
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+ 
+}
+ 
+p
+ 
+{
+    margin: 5%;
+}
+ 
+img#photo
+{
+    width: 33%;
+}
+video#video
+{
+    width: 33%;
+}
+audio#audio
+{
+    width: 33%;
+}
+ 
+ul
+li#ligne1
+{
+color: green;
+}
+li#ligne2
+{
+color: greenyellow;
+}
+li#ligne4
+{
+color: greenyellow;
+}
+
